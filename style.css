@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height:100vh;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+.container{
+    width:1440px;
+    height:800px;
+}
+
+.AI{
+    text-align: center;
+    color:hsl(229, 6%, 66%);
+    margin-bottom:60px;
+    margin-top:20px;
+    margin-left:470px;
+    margin-right:470px;
+}
+
+.text{
+    font-weight:thin;
+}
+
+.text{
+    margin-top:60px;
+    text-align: center;
+    color:hsl(234, 12%, 34%);
+}
+
+.text p{
+    font-size: 29px;
+    margin-top:20px;
+    margin-left:400px;
+    margin-right:400px;
+    color:hsl(229, 6%, 66%);
+}
+
+.leftright{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+}
+
+.topbottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+}
+
+.box{
+    width:350px;
+    height:250px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 10px 5px 40px hsl(213, 19%, 77%);
+}
+
+.redline{
+    width:100%;
+    height:6px;
+    background-color: hsl(0, 78%, 62%);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.orangeline{
+    width:100%;
+    height:6px;
+    background-color: hsl(34, 97%, 64%);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.cyanline{
+    width:100%;
+    height:6px;
+    background-color: hsl(180, 62%, 55%);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.blueline{
+    width:100%;
+    height:6px;
+    background-color: hsl(212, 86%, 64%);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.insidetext{
+    margin:30px;
+    
+}
+
+.insidetext p{
+    margin-top:10px;
+    font-size: 14px;
+    color:hsl(229, 6%, 66%);
+}
+
+.icon{
+    margin-left:250px;
+}
+
+@media only screen and (max-width:768px) {
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .container{
+        width:fit-content;
+        height:100%;
+    }
+
+    .leftright{
+        flex-direction: column;
+    }
+    .AI{
+        max-width:300px;
+        margin-left:100px;
+        margin-right:100px;
+    }
+
+    .text p{
+        margin-left:0px;
+        margin-right:0px;
+    }
+}
